@@ -1,5 +1,5 @@
 import  React   from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
 import StockLogo from '../../../Assets/Img/caixafofa.png';
@@ -10,14 +10,16 @@ import Logout from '../../../Assets/Img/log-out.png';
 
 import './styles.css';
 
-const SideBar = () => {
+const SideBar = () => {  
+    const navigate = useNavigate()
+
     return(
         <div className="Sidebar">      
             <nav className='SidebarContent'>
-                <img src={StockLogo}  className='SidebarLogo'/>
-                <img src={Tabelas}  className='SidebarItem'/>
-                <img src={Estoques}  className='SidebarItem'/>
-                <img src={Logout}  className='SidebarItem'/>
+                <img src={StockLogo}  className='SidebarLogo' onClick={()=> navigate('/Home')}/>
+                <img src={Tabelas}  className='SidebarItem' onClick={()=> navigate('/Home')}/>
+                <img src={Estoques}  className='SidebarItem' onClick={()=> navigate('/Home')}/>
+                <img src={Logout}  className='SidebarItem Exit' onClick={()=> navigate('/Home')}/>
             </nav>
         </div>
     );
