@@ -15,7 +15,6 @@ const SideBar = () => {
         <div className="Sidebar">      
             <nav className='SidebarContent'>
                 <img src={StockLogo}  className='SidebarLogo'/>
-                <hr />
                 <img src={Tabelas}  className='SidebarItem'/>
                 <img src={Estoques}  className='SidebarItem'/>
                 <img src={Logout}  className='SidebarItem'/>
