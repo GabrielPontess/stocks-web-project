@@ -13,7 +13,7 @@ const Login = () => {
             <NavbarInicial />
             <div className='Container'>
                 <div className='ImgContent'>
-                    <img src={StockImg} className='StockImg'/>
+                    <img src={StockImg} className='StockImgLogin'/>
                 </div>
                 <div className='LoginContainer'>
                     <div className='LoginBox'>
