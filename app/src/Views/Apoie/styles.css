@@ -6,3 +6,9 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+.QrCodeContent {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
