@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+
+.NavItem{
+    font-family: 'DM Sans', sans-serif;    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    color: #81662d;
+    cursor: pointer;
+    transition: 350ms;
+}
+
+.NavItem:hover{
+    transform: scale(1.02);
+    color: #81662d;
+}
+
+.NavItem:active{
+    color: #81662d;
+}
+
+.Logo{
+    width: 5rem;
+    animation: bounce;
+    animation-duration: 1.5s;
+    transition: 350ms;
+}
+
+.Logo:hover{
+    transform: scale(1.02);
+    opacity: 0.8;
+}   

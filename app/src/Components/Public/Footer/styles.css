@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+.Footer{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    bottom: 0;
+    margin-bottom: 1.5rem;
+    color: rgba(255, 255, 255, 0.55);
+    font-family: 'DM Sans';
+    font-style: bold;
+    font-size: 13px;
+    line-height: 26px;
+    text-align: center;
+    width: 100%;
+    cursor: default;
+}

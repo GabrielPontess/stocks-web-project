@@ -1,0 +1,45 @@
+body{
+    width: 1366px;
+    height: 625px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(180deg, #FFCE5A 0%, #F99837 100%);
+}
+
+.Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 28rem;
+}
+
+.ImgContent{
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.StockImg{
+    height: 65%;
+    margin-bottom: 2rem;
+}
+
+.DescriptionContent{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+.DescriptionImg{
+    margin-bottom: 1rem;
+}
