@@ -10,13 +10,39 @@ const Registro = () => {
     return(
         <div className="Registro">
             <NavbarInicial />
-            <aside className='Container'>
+            <div className='Container'>
                 <div className='ImgContent'>
-                    <img src={StockImg} className='StockImg'/>
+                    <img src={StockImg} className='StockImage'/>
                 </div>
-                <div className='RegistroBox'>
+                <div className='RegistroContainer'>
+                    <div className='RegistroBox'>
+                            <div className='FormItem'>
+                                <label for="Email" className='Labels'>Email</label>
+                                <input id='Email' type="email" className='form-control' placeholder='Digite o seu email' />
+                            </div>
+                            <div className='FormItem'>
+                                <label for="Email" className='Labels'>Senha</label>
+                                <input id='Email' type="email" className='form-control' placeholder='Digite a sua senha' />
+                            </div>
+                            <div className='FormItem'>
+                                <label for="Email" className='Labels'>Email</label>
+                                <input id='Email' type="email" className='form-control' placeholder='Digite o seu email' />
+                            </div>
+                            <div className='FormItem'>
+                                <label for="Email" className='Labels'>Senha</label>
+                                <input id='Email' type="email" className='form-control' placeholder='Digite a sua senha' />
+                            </div>
+                            <div className='FormItem'>
+                                <label for="Email" className='Labels'>Email</label>
+                                <input id='Email' type="email" className='form-control' placeholder='Digite o seu email' />
+                            </div>
+                            <div className='FormItem'>
+                                <label for="Email" className='Labels'>Senha</label>
+                                <input id='Email' type="email" className='form-control' placeholder='Digite a sua senha' />
+                            </div>
+                    </div>
                 </div>
-            </aside>
+            </div>
             <Footer />
         </div>
     );

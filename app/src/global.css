@@ -35,3 +35,9 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+.StockImage{
+    height: 100%;
+    width: 55%;
+}
+
