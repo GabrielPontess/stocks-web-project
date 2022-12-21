@@ -6,3 +6,28 @@
     justify-content: space-between;
     background-image: linear-gradient(180deg, #FFCE5A 0%, #F99837 100%);
 }
+
+.RegistroLogo{
+    width: 55%;
+    height: 15%;
+    padding-bottom: 15px;
+}
+
+.Labels {
+    width: auto;
+    height: 21px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 95%;
+    line-height: 21px;
+
+    text-align: center;
+
+    color: #757575;
+}
+
+.FormItem{
+    padding-bottom: 10px;
+}

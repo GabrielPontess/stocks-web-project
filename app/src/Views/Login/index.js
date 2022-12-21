@@ -15,8 +15,8 @@ const Login = () => {
                 <div className='ImgContent'>
                     <img src={StockImg} className='StockImage'/>
                 </div>
-                <div className='LoginContainer'>
-                    <div className='LoginBox'>
+                <div className='ContainerForm'>
+                    <div className='BoxForm'>
                         <img src={LoginLogo} className='LoginLogo'/>
                         <div className='FormBox'>
                             <div className='FormItem'>
