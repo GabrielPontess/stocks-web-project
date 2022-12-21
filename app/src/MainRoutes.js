@@ -6,6 +6,8 @@ import Home from './Views/Home'
 import Login from './Views/Login'
 import Registro from './Views/Registro'
 import Apoie from './Views/Apoie'
+import Estoques from './Views/Estoques';
+import Tabelas from './Views/Tabelas'
 
 const MainRoutes = () => {
     return (
@@ -16,6 +18,8 @@ const MainRoutes = () => {
           <Route path="/Login" element={<Login />} />
           <Route path="/Registro" element={<Registro />} />
           <Route path="/Apoie" element={<Apoie />} />
+          <Route path="/Estoques" element={<Estoques />} />
+          <Route path="/Tabelas" element={<Tabelas />} />
         </Routes>
     </Router>
     );

@@ -12,12 +12,14 @@ const Card = ({Img,Title,Body}) => {
 
     return(
         <div className='Card'>
-            <img className='CardImg' src={Img} />
-            <div className='CardTitle'>
-                {Title}
-            </div>
-            <div className='CardBody'>
-                {Body}
+            <div className='CardContent'>
+                <img className='CardImg' src={Img} />
+                <div className='CardTitle'>
+                    {Title}
+                </div>
+                <div className='CardBody'>
+                    {Body}
+                </div>
             </div>
          </div>
     );

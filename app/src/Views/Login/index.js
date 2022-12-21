@@ -28,7 +28,7 @@ const Login = () => {
                                 <input id='Senha' type="password" className='form-control' placeholder='Digite a sua senha' />
                             </div>
                         </div>
-                        <button>Login</button>
+                        <button className='DefaultButton'>Login</button>
                     </div>
                 </div>
             </div>

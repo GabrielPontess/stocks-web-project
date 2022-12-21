@@ -17,9 +17,9 @@ const SideBar = () => {
         <div className="Sidebar">      
             <nav className='SidebarContent'>
                 <img src={StockLogo}  className='SidebarLogo' onClick={()=> navigate('/Home')}/>
-                <img src={Tabelas}  className='SidebarItem' onClick={()=> navigate('/Home')}/>
-                <img src={Estoques}  className='SidebarItem' onClick={()=> navigate('/Home')}/>
-                <img src={Logout}  className='SidebarItem Exit' onClick={()=> navigate('/Home')}/>
+                <img src={Tabelas}  className='SidebarItem' onClick={()=> navigate('/Tabelas')}/>
+                <img src={Estoques}  className='SidebarItem' onClick={()=> navigate('/Estoques')}/>
+                <img src={Logout}  className='SidebarItem Exit' onClick={()=> navigate('/')}/>
             </nav>
         </div>
     );

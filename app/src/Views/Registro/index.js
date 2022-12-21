@@ -48,7 +48,7 @@ const Registro = () => {
                                 <input id='Senha' type="password" className='form-control' placeholder='Confirme sua senha' />
                             </div>
                          </div>
-                         <button>Registro</button>
+                         <button className='DefaultButton'>Registro</button>
                     </div>
                 </div>
             </div>
