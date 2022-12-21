@@ -11,7 +11,7 @@ const Login = () => {
     return(
         <div className="Login">
             <NavbarInicial />
-            <aside className='Container'>
+            <div className='Container'>
                 <div className='ImgContent'>
                     <img src={StockImg} className='StockImg'/>
                 </div>
@@ -19,15 +19,19 @@ const Login = () => {
                     <div className='LoginBox'>
                         <img src={LoginLogo} className='LoginLogo'/>
                         <div className='FormBox'>
-                            <label for="Email">Email</label>
-                            <input id='Email' type="email" className='form-control' placeholder='Digite o seu email' />
-                            <label for="Email">Senha</label>
-                            <input id='Email' type="email" className='form-control' placeholder='Digite a sua senha' />
-                        </div>
+                            <div className='FormItem'>
+                                <label for="Email" className='Labels'>Email</label>
+                                <input id='Email' type="email" className='form-control' placeholder='Digite o seu email' />
+                            </div>
+                            <div className='FormItem'>
+                                <label for="Email" className='Labels'>Senha</label>
+                                <input id='Email' type="email" className='form-control' placeholder='Digite a sua senha' />
+                            </div>
+                             </div>
                         <button>Login</button>
                     </div>
                 </div>
-            </aside>
+            </div>
             <Footer />
         </div>
     );

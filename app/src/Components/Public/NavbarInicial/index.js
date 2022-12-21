@@ -18,8 +18,6 @@ const NavbarInicial = () => {
                         <Link className="NavItem navbar-brand" to={'/Login'}>LOGIN</Link>
                         <Link className="NavItem navbar-brand" to={'/Registro'}>REGISTRO</Link>
                         <BtnApoiarProjeto />
-                        <BtnApoiarProjeto />
-
                     </div>
                 </div>
             </nav>               

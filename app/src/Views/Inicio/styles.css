@@ -1,33 +1,15 @@
-body{
-    width: 1366px;
-    height: 625px;
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: linear-gradient(180deg, #FFCE5A 0%, #F99837 100%);
-}
-
-.Container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+.Inicio {
     width: 100%;
-    height: 28rem;
-}
-
-.ImgContent{
     height: 100%;
-    width: 75%;
     display: flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
-
+    flex-direction: column;
+    justify-content: space-between;
 }
+
 
 .StockImg{
-    height: 65%;
+    height: 100%;
+    width: 100%;
     margin-bottom: 2rem;
 }
 
@@ -41,5 +23,11 @@ body{
 }
 
 .DescriptionImg{
+    width: 90%;
+    height: 45%;
     margin-bottom: 1rem;
+}
+
+.AlignFooter{
+    
 }
