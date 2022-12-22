@@ -1,17 +1,20 @@
-body{
+body {
 }
 
-.Tabelas{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    background-color: #fff;
+.Tabelas {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
 }
 
-.TabelasContent{
-    width: 100%;
-    height: 100%;
-    padding: 1%;
+.TabelasContent {
+  width: 100%;
+  height: 100%;
+  padding: 1%;
 }
 
+tbody {
+  display: flex;
+}
